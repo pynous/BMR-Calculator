@@ -1,0 +1,113 @@
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+  margin: 0px;
+  background: #F4F1F1;
+  color: black;
+  font-size: 15px;
+ 
+}
+
+.bmrcalc {
+  height: 100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.form {
+   width: 600px;
+   background: white;
+   padding: 20px;
+   border: 1px solid #ffc5c5;
+   box-shadow: 0 1px 9px #cdb3b3;
+   max-width: 100%;
+}
+h2 {
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color:rgb(17, 9, 48);
+
+}
+.inputwrap {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.inputwrap label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+input[type="text"],input[type="number"] {
+  padding: 8px 7px;
+  width: 110px;
+  margin-right: 10px;
+   
+  font-size: 15px;
+}
+input[type="text"] {
+  width: 100%;
+}
+input[type="submit"] {
+  width: 100%;
+  display: block;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  border: none;
+
+  font-size: 15px;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 10px 1px;
+  background: rgb(17, 9, 48);
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+}
+select {
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 15px;
+}
+.error {
+  background: #bf2121;
+  color: white;
+  text-align: center;
+  padding: 4px 16px;
+  margin-bottom: 15px;
+  display: inline-block;
+ 
+  
+
+}
+.result {
+  background:red;
+  color:white;
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 9px;
+  font-size: 18px;
+}
+.workout {
+  margin-top: 19px;
+}
+@media only screen and (max-width:400px) {
+  div#bmrcalc {
+    align-items: end;
+  }
+}
